@@ -52,7 +52,7 @@ def run_the_app():
     file_upload()
 
 
-    return 
+     
 
 def main():
     readme_text = st.markdown(get_file_content('./TEST.md'))
@@ -68,7 +68,6 @@ def main():
         readme_text.empty()
         run_the_app()
 
-    return
     
 if __name__ == "__main__":
     main()
